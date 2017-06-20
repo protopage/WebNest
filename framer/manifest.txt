@@ -1,15 +1,4 @@
 app.coffee
-framer/backups/backup-2017-06-19 19.16.07.coffee
-framer/backups/backup-2017-06-19 19.17.07.coffee
-framer/backups/backup-2017-06-19 19.18.07.coffee
-framer/backups/backup-2017-06-19 19.19.07.coffee
-framer/backups/backup-2017-06-19 19.20.07.coffee
-framer/backups/backup-2017-06-19 19.21.07.coffee
-framer/backups/backup-2017-06-19 19.22.07.coffee
-framer/backups/backup-2017-06-19 19.23.07.coffee
-framer/backups/backup-2017-06-19 19.24.07.coffee
-framer/backups/backup-2017-06-19 19.27.07.coffee
-framer/backups/backup-2017-06-19 19.28.07.coffee
 framer/backups/backup-2017-06-19 19.29.07.coffee
 framer/backups/backup-2017-06-19 19.39.07.coffee
 framer/backups/backup-2017-06-19 19.40.07.coffee
@@ -39,6 +28,17 @@ framer/backups/backup-2017-06-19 20.15.07.coffee
 framer/backups/backup-2017-06-19 20.16.07.coffee
 framer/backups/backup-2017-06-19 20.17.07.coffee
 framer/backups/backup-2017-06-19 20.19.07.coffee
+framer/backups/backup-2017-06-19 20.35.07.coffee
+framer/backups/backup-2017-06-19 20.36.07.coffee
+framer/backups/backup-2017-06-19 20.42.07.coffee
+framer/backups/backup-2017-06-19 20.43.07.coffee
+framer/backups/backup-2017-06-19 20.48.07.coffee
+framer/backups/backup-2017-06-19 20.49.07.coffee
+framer/backups/backup-2017-06-19 20.51.07.coffee
+framer/backups/backup-2017-06-19 20.52.07.coffee
+framer/backups/backup-2017-06-19 20.54.07.coffee
+framer/backups/backup-2017-06-19 20.57.07.coffee
+framer/backups/backup-2017-06-19 20.59.07.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -87,6 +87,64 @@ imported/PrototypeOld@1x/images/Layer-topBarOld-q0jfotew.jpg
 imported/PrototypeOld@1x/images/Layer-urlZone-qke3rjdd.png
 imported/PrototypeOld@1x/layers.json
 imported/PrototypeOld@1x/layers.json.js
+imported/PrototypeOld@2x/images/Layer-addNewBack-rtuzntyy.png
+imported/PrototypeOld@2x/images/Layer-addnewBg-nzrbmzky.jpg
+imported/PrototypeOld@2x/images/Layer-addNewZone-nufgm0uz.png
+imported/PrototypeOld@2x/images/Layer-analyticsBack-rey4n0vc.png
+imported/PrototypeOld@2x/images/Layer-analyticsBg-mke3neqw.jpg
+imported/PrototypeOld@2x/images/Layer-analyticsZoneOld-mzm0mzu1.png
+imported/PrototypeOld@2x/images/Layer-content-quuymzfd.jpg
+imported/PrototypeOld@2x/images/Layer-facebookZone-njc2nzi1.png
+imported/PrototypeOld@2x/images/Layer-gaZone-rdg2qkm3.png
+imported/PrototypeOld@2x/images/Layer-headlineZoneOld-mdkxmke3.png
+imported/PrototypeOld@2x/images/Layer-keywordsZone-rdy1refg.png
+imported/PrototypeOld@2x/images/Layer-masker-rjhenezf.png
+imported/PrototypeOld@2x/images/Layer-metaZone-qtdfmku1.png
+imported/PrototypeOld@2x/images/Layer-pageTitleZone-revemtew.png
+imported/PrototypeOld@2x/images/Layer-pointerAddNew-mtk2rddc.png
+imported/PrototypeOld@2x/images/Layer-pointerSettings-nda1mdg5.png
+imported/PrototypeOld@2x/images/Layer-pointerTop-rtc5rufc.png
+imported/PrototypeOld@2x/images/Layer-seoBack-qje2mend.png
+imported/PrototypeOld@2x/images/Layer-seoBg-ndyxndvc.jpg
+imported/PrototypeOld@2x/images/Layer-seoZoneOld-otiwnunc.png
+imported/PrototypeOld@2x/images/Layer-settingsBack-nzfgqtu1.png
+imported/PrototypeOld@2x/images/Layer-settingsBg-qzlfqtc4.jpg
+imported/PrototypeOld@2x/images/Layer-settingsZone-qzi2mtgz.png
+imported/PrototypeOld@2x/images/Layer-tagZone-ndiwmduy.png
+imported/PrototypeOld@2x/images/Layer-TOP_BAR-nzcwqzrd.png
+imported/PrototypeOld@2x/images/Layer-topBg-n0i4njqw.jpg
+imported/PrototypeOld@2x/images/Layer-urlZone-qke3rjdd.png
+imported/PrototypeOld@2x/layers.json
+imported/PrototypeOld@2x/layers.json.js
+imported/PrototypeOld@4x/images/Layer-addNewBack-rtuzntyy.png
+imported/PrototypeOld@4x/images/Layer-addnewBg-nzrbmzky.jpg
+imported/PrototypeOld@4x/images/Layer-addNewZone-nufgm0uz.png
+imported/PrototypeOld@4x/images/Layer-analyticsBack-rey4n0vc.png
+imported/PrototypeOld@4x/images/Layer-analyticsBg-mke3neqw.jpg
+imported/PrototypeOld@4x/images/Layer-analyticsZoneOld-mzm0mzu1.png
+imported/PrototypeOld@4x/images/Layer-content-quuymzfd.jpg
+imported/PrototypeOld@4x/images/Layer-facebookZone-njc2nzi1.png
+imported/PrototypeOld@4x/images/Layer-gaZone-rdg2qkm3.png
+imported/PrototypeOld@4x/images/Layer-headlineZoneOld-mdkxmke3.png
+imported/PrototypeOld@4x/images/Layer-keywordsZone-rdy1refg.png
+imported/PrototypeOld@4x/images/Layer-masker-rjhenezf.png
+imported/PrototypeOld@4x/images/Layer-metaZone-qtdfmku1.png
+imported/PrototypeOld@4x/images/Layer-pageTitleZone-revemtew.png
+imported/PrototypeOld@4x/images/Layer-pointerAddNew-mtk2rddc.png
+imported/PrototypeOld@4x/images/Layer-pointerSettings-nda1mdg5.png
+imported/PrototypeOld@4x/images/Layer-pointerTop-rtc5rufc.png
+imported/PrototypeOld@4x/images/Layer-seoBack-qje2mend.png
+imported/PrototypeOld@4x/images/Layer-seoBg-ndyxndvc.jpg
+imported/PrototypeOld@4x/images/Layer-seoZoneOld-otiwnunc.png
+imported/PrototypeOld@4x/images/Layer-settingsBack-nzfgqtu1.png
+imported/PrototypeOld@4x/images/Layer-settingsBg-qzlfqtc4.jpg
+imported/PrototypeOld@4x/images/Layer-settingsZone-qzi2mtgz.png
+imported/PrototypeOld@4x/images/Layer-tagZone-ndiwmduy.png
+imported/PrototypeOld@4x/images/Layer-TOP_BAR-nzcwqzrd.png
+imported/PrototypeOld@4x/images/Layer-topBg-n0i4njqw.jpg
+imported/PrototypeOld@4x/images/Layer-urlZone-qke3rjdd.png
+imported/PrototypeOld@4x/layers.json
+imported/PrototypeOld@4x/layers.json.js
 index.html
 modules/input.coffee
 modules/myModule.coffee

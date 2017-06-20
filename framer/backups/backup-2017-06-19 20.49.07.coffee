@@ -27,17 +27,14 @@ createIn = (i) ->
 		for layer in responders
 			layer.visible = false
 		responders[i].visible = true
-		topBarOld.visible = false
 
 createOut = (i) ->
 	one[i].onClick ->
-		topBarOld.visible = true
 		for index in [0...2]
 			responders[index].visible = false
 	two[i].onClick ->
 		for index in [2...4]
 			responders[index].visible = false
-		
 
 for layer, i in zones
 	createIn(i)
@@ -48,7 +45,6 @@ for i in [0...2]
 headlineZoneOld.onClick ->
 	masker.visible = false
 	addNewOld.visible = false
-	topBarOld.visible = true
 # Text Inputs
 
 pageTitle = new InputModule.Input

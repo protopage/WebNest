@@ -28,6 +28,7 @@ createIn = (i) ->
 			layer.visible = false
 		responders[i].visible = true
 		topBarOld.visible = false
+		state = zones[i]
 
 createOut = (i) ->
 	one[i].onClick ->

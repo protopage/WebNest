@@ -37,7 +37,6 @@ createOut = (i) ->
 	two[i].onClick ->
 		for index in [2...4]
 			responders[index].visible = false
-		
 
 for layer, i in zones
 	createIn(i)

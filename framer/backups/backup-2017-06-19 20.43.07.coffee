@@ -1,9 +1,8 @@
 # Import file "PrototypeOld"
-sketch = Framer.Importer.load("imported/PrototypeOld@4x", scale: 1)
+sketch = Framer.Importer.load("imported/PrototypeOld@2x", scale: 1)
 
 
-
-{old, masker, settingsOld, analyticsZoneOld, seoZoneOld, analyticsOld, seoSettingsOld, addNewOld, headlineZoneOld, topBarOld, addNewZone, settingsZone, settingsBack, addNewBack, seoBack, analyticsBack, tagZone, facebookZone, gaZone, urlZone, metaZone, keywordsZone, pageTitleZone, pointerAddNew, pointerSettings, pointerTop} = sketch
+{old, masker, settingsOld, analyticsZoneOld, seoZoneOld, analyticsOld, seoSettingsOld, addNewOld, headlineZoneOld, topBarOld, addNewZone, settingsZone, settingsBack, addNewBack, seoBack, analyticsBack, tagZone, facebookZone, gaZone, urlZone, metaZone, keywordsZone, pageTitleZone, pointerAddNew, pointerSettings} = sketch
 # Document Setup
 document.body.style.cursor = "auto"
 Framer.Extras.Hints.disable()
@@ -27,17 +26,14 @@ createIn = (i) ->
 		for layer in responders
 			layer.visible = false
 		responders[i].visible = true
-		topBarOld.visible = false
 
 createOut = (i) ->
 	one[i].onClick ->
-		topBarOld.visible = true
 		for index in [0...2]
 			responders[index].visible = false
 	two[i].onClick ->
 		for index in [2...4]
 			responders[index].visible = false
-		
 
 for layer, i in zones
 	createIn(i)
@@ -48,7 +44,6 @@ for i in [0...2]
 headlineZoneOld.onClick ->
 	masker.visible = false
 	addNewOld.visible = false
-	topBarOld.visible = true
 # Text Inputs
 
 pageTitle = new InputModule.Input
@@ -175,7 +170,7 @@ facebook.style =
 
 # Affordances
 
-pointers = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld, addNewBack, settingsBack, seoBack, analyticsBack, headlineZoneOld, pointerAddNew, pointerSettings, pointerTop]
+pointers = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld, addNewBack, settingsBack, seoBack, analyticsBack, headlineZoneOld, pointerAddNew, pointerSettings]
 
 
 createAffordances = (index) ->
