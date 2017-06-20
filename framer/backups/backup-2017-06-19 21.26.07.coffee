@@ -53,7 +53,7 @@ headlineZoneOld.onClick ->
 	masker.visible = false
 	addNewOld.visible = false
 	topBarOld.visible = true
-	content.y = initial
+	content.y = intitial
 # Text Inputs
 
 pageTitle = new InputModule.Input

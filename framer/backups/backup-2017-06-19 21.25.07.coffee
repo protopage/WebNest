@@ -37,8 +37,6 @@ createOut = (i) ->
 		for index in [0...2]
 			responders[index][0].visible = false
 	two[i].onClick ->
-		topBarOld.visible = true
-		content.y = initial
 		for index in [2...4]
 			responders[index][0].visible = false
 		
@@ -53,7 +51,7 @@ headlineZoneOld.onClick ->
 	masker.visible = false
 	addNewOld.visible = false
 	topBarOld.visible = true
-	content.y = initial
+	content.y = intitial
 # Text Inputs
 
 pageTitle = new InputModule.Input

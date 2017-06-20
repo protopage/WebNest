@@ -5,7 +5,7 @@
   "cachedDeviceHeight" : 0,
   "contentScale" : 1,
   "cachedDeviceWidth" : 0,
-  "sharedPrototype" : 0,
+  "sharedPrototype" : true,
   "propertyPanelToggleStates" : {
 
   },
@@ -14,10 +14,10 @@
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "foldedCodeRanges" : [
-    "{0, 434}",
-    "{434, 168}",
-    "{602, 848}",
-    "{1450, 2116}"
+    "{0, 443}",
+    "{443, 168}",
+    "{611, 1052}",
+    "{1663, 2116}"
   ],
   "deviceScale" : 1
 }

@@ -25,7 +25,7 @@ two = [seoBack, analyticsBack]
 createIn = (i) ->
 	zones[i].onClick ->
 		for layer in responders
-			layer[0].visible = false
+			layer.visible = false
 		responders[i][0].visible = true
 		content.y = initial + responders[i][1]
 		topBarOld.visible = false
@@ -35,12 +35,10 @@ createOut = (i) ->
 		topBarOld.visible = true
 		content.y = initial
 		for index in [0...2]
-			responders[index][0].visible = false
+			responders[index].visible = false
 	two[i].onClick ->
-		topBarOld.visible = true
-		content.y = initial
 		for index in [2...4]
-			responders[index][0].visible = false
+			responders[index].visible = false
 		
 
 for layer, i in zones
@@ -53,7 +51,7 @@ headlineZoneOld.onClick ->
 	masker.visible = false
 	addNewOld.visible = false
 	topBarOld.visible = true
-	content.y = initial
+	content.y = intitial
 # Text Inputs
 
 pageTitle = new InputModule.Input

@@ -3,7 +3,7 @@ sketch = Framer.Importer.load("imported/PrototypeOld@4x", scale: 1)
 
 
 
-{old, masker, settingsOld, analyticsZoneOld, seoZoneOld, analyticsOld, seoSettingsOld, addNewOld, headlineZoneOld, topBarOld, addNewZone, settingsZone, settingsBack, addNewBack, seoBack, analyticsBack, tagZone, facebookZone, gaZone, urlZone, metaZone, keywordsZone, pageTitleZone, pointerAddNew, pointerSettings, pointerTop, content} = sketch
+{old, masker, settingsOld, analyticsZoneOld, seoZoneOld, analyticsOld, seoSettingsOld, addNewOld, headlineZoneOld, topBarOld, addNewZone, settingsZone, settingsBack, addNewBack, seoBack, analyticsBack, tagZone, facebookZone, gaZone, urlZone, metaZone, keywordsZone, pageTitleZone, pointerAddNew, pointerSettings, pointerTop} = sketch
 # Document Setup
 document.body.style.cursor = "auto"
 Framer.Extras.Hints.disable()
@@ -16,31 +16,27 @@ hide = [settingsOld, seoSettingsOld, analyticsOld, addNewOld]
 
 for layer in hide
 	layer.visible = false
-initial = content.y
+
 zones = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld]
-responders = [[addNewOld, 152-48], [settingsOld, 151-48], [analyticsOld, 149-48], [seoSettingsOld, 195-48]]
+responders = [[addNewOld, 152], [settingsOld, 151], [analyticsOld, 149], [seoSettingsOld, 195]]
 one = [addNewBack, settingsBack]
 two = [seoBack, analyticsBack]
 
 createIn = (i) ->
 	zones[i].onClick ->
 		for layer in responders
-			layer[0].visible = false
+			layer.visible = false
 		responders[i][0].visible = true
-		content.y = initial + responders[i][1]
 		topBarOld.visible = false
 
 createOut = (i) ->
 	one[i].onClick ->
 		topBarOld.visible = true
-		content.y = initial
 		for index in [0...2]
-			responders[index][0].visible = false
+			responders[index].visible = false
 	two[i].onClick ->
-		topBarOld.visible = true
-		content.y = initial
 		for index in [2...4]
-			responders[index][0].visible = false
+			responders[index].visible = false
 		
 
 for layer, i in zones
@@ -53,7 +49,6 @@ headlineZoneOld.onClick ->
 	masker.visible = false
 	addNewOld.visible = false
 	topBarOld.visible = true
-	content.y = initial
 # Text Inputs
 
 pageTitle = new InputModule.Input

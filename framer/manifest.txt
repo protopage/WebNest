@@ -1,11 +1,4 @@
 app.coffee
-framer/backups/backup-2017-06-19 19.29.07.coffee
-framer/backups/backup-2017-06-19 19.39.07.coffee
-framer/backups/backup-2017-06-19 19.40.07.coffee
-framer/backups/backup-2017-06-19 19.43.07.coffee
-framer/backups/backup-2017-06-19 19.44.07.coffee
-framer/backups/backup-2017-06-19 19.49.07.coffee
-framer/backups/backup-2017-06-19 19.50.07.coffee
 framer/backups/backup-2017-06-19 19.52.07.coffee
 framer/backups/backup-2017-06-19 19.53.07.coffee
 framer/backups/backup-2017-06-19 19.54.07.coffee
@@ -39,6 +32,13 @@ framer/backups/backup-2017-06-19 20.52.07.coffee
 framer/backups/backup-2017-06-19 20.54.07.coffee
 framer/backups/backup-2017-06-19 20.57.07.coffee
 framer/backups/backup-2017-06-19 20.59.07.coffee
+framer/backups/backup-2017-06-19 21.20.07.coffee
+framer/backups/backup-2017-06-19 21.21.07.coffee
+framer/backups/backup-2017-06-19 21.22.07.coffee
+framer/backups/backup-2017-06-19 21.23.07.coffee
+framer/backups/backup-2017-06-19 21.24.07.coffee
+framer/backups/backup-2017-06-19 21.25.07.coffee
+framer/backups/backup-2017-06-19 21.26.07.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -59,6 +59,10 @@ framer/images/icon-192.png
 framer/images/icon-76.png
 framer/manifest.txt
 framer/preview.png
+framer/social-1200x630.png
+framer/social-800x600.png
+framer/social-80x80.png
+framer/social-880x460.png
 framer/style.css
 framer/version
 imported/PrototypeOld@1x/images/Layer-addNewBack-rtuzntyy.png
@@ -122,7 +126,7 @@ imported/PrototypeOld@4x/images/Layer-addNewZone-nufgm0uz.png
 imported/PrototypeOld@4x/images/Layer-analyticsBack-rey4n0vc.png
 imported/PrototypeOld@4x/images/Layer-analyticsBg-mke3neqw.jpg
 imported/PrototypeOld@4x/images/Layer-analyticsZoneOld-mzm0mzu1.png
-imported/PrototypeOld@4x/images/Layer-content-quuymzfd.jpg
+imported/PrototypeOld@4x/images/Layer-bg-quverkrc.jpg
 imported/PrototypeOld@4x/images/Layer-facebookZone-njc2nzi1.png
 imported/PrototypeOld@4x/images/Layer-gaZone-rdg2qkm3.png
 imported/PrototypeOld@4x/images/Layer-headlineZoneOld-mdkxmke3.png

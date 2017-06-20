@@ -1611,33 +1611,6 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 		"backgroundColor": "rgba(240, 243, 245, 1)",
 		"children": [
 			{
-				"objectId": "F8D4FE54-ADE9-4B57-83AD-3A72FD466479",
-				"kind": "group",
-				"name": "masker",
-				"originalName": "masker",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 161,
-					"y": 296,
-					"width": 878,
-					"height": 134
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-masker-rjhenezf.png",
-					"frame": {
-						"x": 161,
-						"y": 296,
-						"width": 878,
-						"height": 134
-					}
-				},
-				"children": []
-			},
-			{
 				"objectId": "B10FFAED-8333-4365-B27A-1F07CBFBD8C9",
 				"kind": "group",
 				"name": "settingsOld",
@@ -1649,7 +1622,7 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 					"width": 1200,
 					"height": 151
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -1803,7 +1776,7 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 					"width": 1200,
 					"height": 149
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -1957,7 +1930,7 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 					"width": 1200,
 					"height": 195
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -2138,7 +2111,7 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 					"width": 1200,
 					"height": 152
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -2396,16 +2369,62 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 				"metadata": {
 					"opacity": 1
 				},
-				"image": {
-					"path": "images/Layer-content-quuymzfd.jpg",
-					"frame": {
-						"x": 0,
-						"y": 47,
-						"width": 1200,
-						"height": 1025
+				"children": [
+					{
+						"objectId": "F8D4FE54-ADE9-4B57-83AD-3A72FD466479",
+						"kind": "group",
+						"name": "masker",
+						"originalName": "masker",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 161,
+							"y": 296,
+							"width": 878,
+							"height": 134
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-masker-rjhenezf.png",
+							"frame": {
+								"x": 161,
+								"y": 296,
+								"width": 878,
+								"height": 134
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "AEDFDB1F-61F5-4C64-AD86-214B0559216C",
+						"kind": "group",
+						"name": "bg",
+						"originalName": "bg*",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 0,
+							"y": 47,
+							"width": 1200,
+							"height": 1025
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-bg-quverkrc.jpg",
+							"frame": {
+								"x": 0,
+								"y": 47,
+								"width": 1200,
+								"height": 1025
+							}
+						},
+						"children": []
 					}
-				},
-				"children": []
+				]
 			},
 			{
 				"objectId": "770C4C53-9715-4B42-BADD-D45B42338820",
