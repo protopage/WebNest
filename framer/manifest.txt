@@ -1,12 +1,4 @@
 app.coffee
-framer/backups/backup-2017-06-19 19.52.07.coffee
-framer/backups/backup-2017-06-19 19.53.07.coffee
-framer/backups/backup-2017-06-19 19.54.07.coffee
-framer/backups/backup-2017-06-19 19.55.07.coffee
-framer/backups/backup-2017-06-19 19.56.07.coffee
-framer/backups/backup-2017-06-19 19.57.07.coffee
-framer/backups/backup-2017-06-19 19.58.07.coffee
-framer/backups/backup-2017-06-19 19.59.07.coffee
 framer/backups/backup-2017-06-19 20.00.07.coffee
 framer/backups/backup-2017-06-19 20.01.07.coffee
 framer/backups/backup-2017-06-19 20.03.07.coffee
@@ -39,6 +31,14 @@ framer/backups/backup-2017-06-19 21.23.07.coffee
 framer/backups/backup-2017-06-19 21.24.07.coffee
 framer/backups/backup-2017-06-19 21.25.07.coffee
 framer/backups/backup-2017-06-19 21.26.07.coffee
+framer/backups/backup-2017-06-19 21.27.07.coffee
+framer/backups/backup-2017-06-20 11.48.53.coffee
+framer/backups/backup-2017-06-20 11.49.53.coffee
+framer/backups/backup-2017-06-20 11.50.53.coffee
+framer/backups/backup-2017-06-20 11.53.53.coffee
+framer/backups/backup-2017-06-20 11.57.53.coffee
+framer/backups/backup-2017-06-20 13.17.54.coffee
+framer/backups/backup-2017-06-20 13.18.54.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -65,13 +65,17 @@ framer/social-80x80.png
 framer/social-880x460.png
 framer/style.css
 framer/version
+imported/PrototypeNew@4x/images/Layer-Builder_Main_Desing_v1_Copy-rdnfnum4.png
+imported/PrototypeNew@4x/images/Layer-TOP_BAR-nzaxmey2.png
+imported/PrototypeNew@4x/layers.json
+imported/PrototypeNew@4x/layers.json.js
 imported/PrototypeOld@1x/images/Layer-addNewBack-rtuzntyy.png
 imported/PrototypeOld@1x/images/Layer-addnewBg-nzrbmzky.jpg
 imported/PrototypeOld@1x/images/Layer-addNewZone-nufgm0uz.png
 imported/PrototypeOld@1x/images/Layer-analyticsBack-rey4n0vc.png
 imported/PrototypeOld@1x/images/Layer-analyticsBg-mke3neqw.jpg
 imported/PrototypeOld@1x/images/Layer-analyticsZoneOld-mzm0mzu1.png
-imported/PrototypeOld@1x/images/Layer-content-quuymzfd.jpg
+imported/PrototypeOld@1x/images/Layer-bg-quverkrc.jpg
 imported/PrototypeOld@1x/images/Layer-facebookZone-njc2nzi1.png
 imported/PrototypeOld@1x/images/Layer-gaZone-rdg2qkm3.png
 imported/PrototypeOld@1x/images/Layer-headlineZoneOld-mdkxmke3.png
@@ -79,6 +83,9 @@ imported/PrototypeOld@1x/images/Layer-keywordsZone-rdy1refg.png
 imported/PrototypeOld@1x/images/Layer-masker-rjhenezf.png
 imported/PrototypeOld@1x/images/Layer-metaZone-qtdfmku1.png
 imported/PrototypeOld@1x/images/Layer-pageTitleZone-revemtew.png
+imported/PrototypeOld@1x/images/Layer-pointerAddNew-mtk2rddc.png
+imported/PrototypeOld@1x/images/Layer-pointerSettings-nda1mdg5.png
+imported/PrototypeOld@1x/images/Layer-pointerTop-rtc5rufc.png
 imported/PrototypeOld@1x/images/Layer-seoBack-qje2mend.png
 imported/PrototypeOld@1x/images/Layer-seoBg-ndyxndvc.jpg
 imported/PrototypeOld@1x/images/Layer-seoZoneOld-otiwnunc.png
@@ -86,8 +93,7 @@ imported/PrototypeOld@1x/images/Layer-settingsBack-nzfgqtu1.png
 imported/PrototypeOld@1x/images/Layer-settingsBg-qzlfqtc4.jpg
 imported/PrototypeOld@1x/images/Layer-settingsZone-qzi2mtgz.png
 imported/PrototypeOld@1x/images/Layer-tagZone-ndiwmduy.png
-imported/PrototypeOld@1x/images/Layer-TOP_BAR-nzcwqzrd.png
-imported/PrototypeOld@1x/images/Layer-topBarOld-q0jfotew.jpg
+imported/PrototypeOld@1x/images/Layer-topBg-n0i4njqw.jpg
 imported/PrototypeOld@1x/images/Layer-urlZone-qke3rjdd.png
 imported/PrototypeOld@1x/layers.json
 imported/PrototypeOld@1x/layers.json.js
@@ -144,11 +150,11 @@ imported/PrototypeOld@4x/images/Layer-settingsBack-nzfgqtu1.png
 imported/PrototypeOld@4x/images/Layer-settingsBg-qzlfqtc4.jpg
 imported/PrototypeOld@4x/images/Layer-settingsZone-qzi2mtgz.png
 imported/PrototypeOld@4x/images/Layer-tagZone-ndiwmduy.png
-imported/PrototypeOld@4x/images/Layer-TOP_BAR-nzcwqzrd.png
 imported/PrototypeOld@4x/images/Layer-topBg-n0i4njqw.jpg
 imported/PrototypeOld@4x/images/Layer-urlZone-qke3rjdd.png
 imported/PrototypeOld@4x/layers.json
 imported/PrototypeOld@4x/layers.json.js
 index.html
 modules/input.coffee
+modules/keyboard.png
 modules/myModule.coffee

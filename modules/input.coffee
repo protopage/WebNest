@@ -1,17 +1,7 @@
-exports.keyboardLayer = new Layer
-	x:0, y:Screen.height, width:Screen.width, height:432
-	html:"<img style='width: 100%;' src='modules/keyboard.png'/>"
-
 #screen width vs. size of image width
 growthRatio = Screen.width / 732
 imageHeight = growthRatio * 432
 
-exports.keyboardLayer.states =
-	shown: 
-		y: Screen.height - imageHeight
-
-exports.keyboardLayer.states.animationOptions =
-	curve: "spring(500,50,15)"
 
 class exports.Input extends Layer
 	@define "style",

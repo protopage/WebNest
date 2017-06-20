@@ -174,6 +174,7 @@ facebook = new InputModule.Input
 facebook.style =
 	color: "white"
 	font: "Arial"
+
 # Affordances
 
 pointers = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld, addNewBack, settingsBack, seoBack, analyticsBack, headlineZoneOld, pointerAddNew, pointerSettings, pointerTop]

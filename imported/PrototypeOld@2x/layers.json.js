@@ -1,4 +1,5 @@
-[
+window.__imported__ = window.__imported__ || {};
+window.__imported__["PrototypeOld@2x/layers.json.js"] = [
 	{
 		"objectId": "81343B4B-5DF8-49D8-AED9-0D056888C576",
 		"kind": "artboard",
@@ -16,6 +17,33 @@
 		"backgroundColor": "rgba(240, 243, 245, 1)",
 		"children": [
 			{
+				"objectId": "F8D4FE54-ADE9-4B57-83AD-3A72FD466479",
+				"kind": "group",
+				"name": "masker",
+				"originalName": "masker",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 161,
+					"y": 296,
+					"width": 878,
+					"height": 134
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-masker-rjhenezf.png",
+					"frame": {
+						"x": 161,
+						"y": 296,
+						"width": 878,
+						"height": 134
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "B10FFAED-8333-4365-B27A-1F07CBFBD8C9",
 				"kind": "group",
 				"name": "settingsOld",
@@ -27,7 +55,7 @@
 					"width": 1200,
 					"height": 151
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
@@ -181,7 +209,7 @@
 					"width": 1200,
 					"height": 149
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
@@ -335,7 +363,7 @@
 					"width": 1200,
 					"height": 195
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
@@ -516,7 +544,7 @@
 					"width": 1200,
 					"height": 152
 				},
-				"visible": true,
+				"visible": false,
 				"metadata": {
 					"opacity": 1
 				},
@@ -774,62 +802,43 @@
 				"metadata": {
 					"opacity": 1
 				},
-				"children": [
-					{
-						"objectId": "F8D4FE54-ADE9-4B57-83AD-3A72FD466479",
-						"kind": "group",
-						"name": "masker",
-						"originalName": "masker*",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 161,
-							"y": 296,
-							"width": 878,
-							"height": 134
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-masker-rjhenezf.png",
-							"frame": {
-								"x": 161,
-								"y": 296,
-								"width": 878,
-								"height": 134
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "AEDFDB1F-61F5-4C64-AD86-214B0559216C",
-						"kind": "group",
-						"name": "bg",
-						"originalName": "bg*",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 0,
-							"y": 47,
-							"width": 1200,
-							"height": 1025
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-bg-quverkrc.jpg",
-							"frame": {
-								"x": 0,
-								"y": 47,
-								"width": 1200,
-								"height": 1025
-							}
-						},
-						"children": []
+				"image": {
+					"path": "images/Layer-content-quuymzfd.jpg",
+					"frame": {
+						"x": 0,
+						"y": 47,
+						"width": 1200,
+						"height": 1025
 					}
-				]
+				},
+				"children": []
+			},
+			{
+				"objectId": "770C4C53-9715-4B42-BADD-D45B42338820",
+				"kind": "group",
+				"name": "TOP_BAR",
+				"originalName": "TOP BAR",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 1169,
+					"y": -1305,
+					"width": 1208,
+					"height": 496
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-TOP_BAR-nzcwqzrd.png",
+					"frame": {
+						"x": 1169,
+						"y": -1305,
+						"width": 1208,
+						"height": 496
+					}
+				},
+				"children": []
 			}
 		]
 	}

@@ -1,5 +1,6 @@
-# Sketch
+# Import file "PrototypeOld"
 sketch = Framer.Importer.load("imported/PrototypeOld@4x", scale: 1)
+
 
 
 {old, masker, settingsOld, analyticsZoneOld, seoZoneOld, analyticsOld, seoSettingsOld, addNewOld, headlineZoneOld, topBarOld, addNewZone, settingsZone, settingsBack, addNewBack, seoBack, analyticsBack, tagZone, facebookZone, gaZone, urlZone, metaZone, keywordsZone, pageTitleZone, pointerAddNew, pointerSettings, pointerTop, content} = sketch
@@ -8,7 +9,7 @@ document.body.style.cursor = "auto"
 Framer.Extras.Hints.disable()
 Framer.Extras.Preloader.enable()
 InputModule = require "input"
-old.bringToFront()
+
 old.x = Align.center
 # Click Events
 hide = [settingsOld, seoSettingsOld, analyticsOld, addNewOld]
@@ -174,6 +175,9 @@ facebook = new InputModule.Input
 facebook.style =
 	color: "white"
 	font: "Arial"
+
+# Affordances
+
 # Affordances
 
 pointers = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld, addNewBack, settingsBack, seoBack, analyticsBack, headlineZoneOld, pointerAddNew, pointerSettings, pointerTop]

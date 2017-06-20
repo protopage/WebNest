@@ -780,7 +780,7 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 						"objectId": "F8D4FE54-ADE9-4B57-83AD-3A72FD466479",
 						"kind": "group",
 						"name": "masker",
-						"originalName": "masker",
+						"originalName": "masker*",
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 161,
@@ -831,33 +831,6 @@ window.__imported__["PrototypeOld@4x/layers.json.js"] = [
 						"children": []
 					}
 				]
-			},
-			{
-				"objectId": "770C4C53-9715-4B42-BADD-D45B42338820",
-				"kind": "group",
-				"name": "TOP_BAR",
-				"originalName": "TOP BAR",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 1169,
-					"y": -1305,
-					"width": 1208,
-					"height": 496
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-TOP_BAR-nzcwqzrd.png",
-					"frame": {
-						"x": 1169,
-						"y": -1305,
-						"width": 1208,
-						"height": 496
-					}
-				},
-				"children": []
 			}
 		]
 	}
