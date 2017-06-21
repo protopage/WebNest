@@ -33,6 +33,33 @@
 				},
 				"children": [
 					{
+						"objectId": "6DB4EFFE-5E57-483D-89B9-37FC268D18F6",
+						"kind": "group",
+						"name": "settingsDone",
+						"originalName": "settingsDone",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1059,
+							"y": 0,
+							"width": 141,
+							"height": 41
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-settingsDone-nkrcnevg.png",
+							"frame": {
+								"x": 1059,
+								"y": 0,
+								"width": 141,
+								"height": 41
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "71FA5530-0990-4DB4-879F-663A4021E3DB",
 						"kind": "group",
 						"name": "settingsBack",
@@ -187,6 +214,33 @@
 				},
 				"children": [
 					{
+						"objectId": "EE611B7A-D0BB-4781-A051-EF8EBD9E0C0E",
+						"kind": "group",
+						"name": "analyticsDone",
+						"originalName": "analyticsDone",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1056,
+							"y": 0,
+							"width": 144,
+							"height": 37
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-analyticsDone-ruu2mtfc.png",
+							"frame": {
+								"x": 1056,
+								"y": 0,
+								"width": 144,
+								"height": 37
+							}
+						},
+						"children": []
+					},
+					{
 						"objectId": "4200525F-D047-4440-A89F-5DE3DDB2FD4B",
 						"kind": "group",
 						"name": "tagZone",
@@ -340,6 +394,33 @@
 					"opacity": 1
 				},
 				"children": [
+					{
+						"objectId": "CFBA1A95-FACB-4B61-B006-AA5F5C65C777",
+						"kind": "group",
+						"name": "seoDone",
+						"originalName": "seoDone",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1057,
+							"y": 0,
+							"width": 143,
+							"height": 38
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-seoDone-q0zcqtfb.png",
+							"frame": {
+								"x": 1057,
+								"y": 0,
+								"width": 143,
+								"height": 38
+							}
+						},
+						"children": []
+					},
 					{
 						"objectId": "BA7F7CFD-70F2-46C8-8D25-7D131A5C1169",
 						"kind": "group",
@@ -521,6 +602,33 @@
 					"opacity": 1
 				},
 				"children": [
+					{
+						"objectId": "751BAE1E-8F87-49F7-8467-B87AC7E246BE",
+						"kind": "group",
+						"name": "addNewDone",
+						"originalName": "addNewDone",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 1056,
+							"y": 0,
+							"width": 144,
+							"height": 40
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-addNewDone-nzuxqkff.png",
+							"frame": {
+								"x": 1056,
+								"y": 0,
+								"width": 144,
+								"height": 40
+							}
+						},
+						"children": []
+					},
 					{
 						"objectId": "E5356268-2111-4A81-AF02-4A2B8285E1F7",
 						"kind": "group",

@@ -45,7 +45,7 @@ createOut = (i) ->
 for layer, i in zones
 	createIn(i)
 
-for i in [0...4]
+for i in [0...2]
 	createOut(i)
 
 headlineZoneOld.onClick ->
@@ -176,7 +176,7 @@ facebook.style =
 	font: "Arial"
 # Affordances
 
-pointers = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld, addNewBack, settingsBack, seoBack, analyticsBack, headlineZoneOld, pointerAddNew, pointerSettings, pointerTop, addNewDone, settingsDone, seoDone, analyticsDone]
+pointers = [addNewZone, settingsZone, analyticsZoneOld, seoZoneOld, addNewBack, settingsBack, seoBack, analyticsBack, headlineZoneOld, pointerAddNew, pointerSettings, pointerTop]
 
 
 createAffordances = (index) ->

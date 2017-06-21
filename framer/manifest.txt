@@ -1,9 +1,4 @@
 app.coffee
-framer/backups/backup-2017-06-19 20.00.07.coffee
-framer/backups/backup-2017-06-19 20.01.07.coffee
-framer/backups/backup-2017-06-19 20.03.07.coffee
-framer/backups/backup-2017-06-19 20.04.07.coffee
-framer/backups/backup-2017-06-19 20.05.07.coffee
 framer/backups/backup-2017-06-19 20.10.07.coffee
 framer/backups/backup-2017-06-19 20.11.07.coffee
 framer/backups/backup-2017-06-19 20.12.07.coffee
@@ -39,6 +34,11 @@ framer/backups/backup-2017-06-20 11.53.53.coffee
 framer/backups/backup-2017-06-20 11.57.53.coffee
 framer/backups/backup-2017-06-20 13.17.54.coffee
 framer/backups/backup-2017-06-20 13.18.54.coffee
+framer/backups/backup-2017-06-20 13.19.54.coffee
+framer/backups/backup-2017-06-20 17.12.41.coffee
+framer/backups/backup-2017-06-20 17.12.41.vekter
+framer/backups/backup-2017-06-20 17.17.41.coffee
+framer/backups/backup-2017-06-20 17.18.41.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -128,9 +128,11 @@ imported/PrototypeOld@2x/layers.json
 imported/PrototypeOld@2x/layers.json.js
 imported/PrototypeOld@4x/images/Layer-addNewBack-rtuzntyy.png
 imported/PrototypeOld@4x/images/Layer-addnewBg-nzrbmzky.jpg
+imported/PrototypeOld@4x/images/Layer-addNewDone-nzuxqkff.png
 imported/PrototypeOld@4x/images/Layer-addNewZone-nufgm0uz.png
 imported/PrototypeOld@4x/images/Layer-analyticsBack-rey4n0vc.png
 imported/PrototypeOld@4x/images/Layer-analyticsBg-mke3neqw.jpg
+imported/PrototypeOld@4x/images/Layer-analyticsDone-ruu2mtfc.png
 imported/PrototypeOld@4x/images/Layer-analyticsZoneOld-mzm0mzu1.png
 imported/PrototypeOld@4x/images/Layer-bg-quverkrc.jpg
 imported/PrototypeOld@4x/images/Layer-facebookZone-njc2nzi1.png
@@ -145,9 +147,11 @@ imported/PrototypeOld@4x/images/Layer-pointerSettings-nda1mdg5.png
 imported/PrototypeOld@4x/images/Layer-pointerTop-rtc5rufc.png
 imported/PrototypeOld@4x/images/Layer-seoBack-qje2mend.png
 imported/PrototypeOld@4x/images/Layer-seoBg-ndyxndvc.jpg
+imported/PrototypeOld@4x/images/Layer-seoDone-q0zcqtfb.png
 imported/PrototypeOld@4x/images/Layer-seoZoneOld-otiwnunc.png
 imported/PrototypeOld@4x/images/Layer-settingsBack-nzfgqtu1.png
 imported/PrototypeOld@4x/images/Layer-settingsBg-qzlfqtc4.jpg
+imported/PrototypeOld@4x/images/Layer-settingsDone-nkrcnevg.png
 imported/PrototypeOld@4x/images/Layer-settingsZone-qzi2mtgz.png
 imported/PrototypeOld@4x/images/Layer-tagZone-ndiwmduy.png
 imported/PrototypeOld@4x/images/Layer-topBg-n0i4njqw.jpg
