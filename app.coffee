@@ -167,7 +167,7 @@ facebook = new InputModule.Input
 	fontSize: 13
 	lineHeight: 16
 	padding: 0
-	placeholder: "Google Analytics ID"
+	placeholder: "Facebook Pixel ID"
 	placeholderColor: "#5a6a79"
 	virtualKeyboard: false
 
